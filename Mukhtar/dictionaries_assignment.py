@@ -25,7 +25,7 @@ b = books.keys()
 print(b)
 b = books.values()
 print(b)
-
+# fromkeys
 yoo = ('key6' , 'key4')
 r = 8
 zee = dict.fromkeys(yoo , r )
