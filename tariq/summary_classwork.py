@@ -14,7 +14,7 @@
 
 #Q1
 students = ["Abdul", "Mansur", "Haruna", "Abubakar", "Ibrahim"]
-
+  
 #Q2
 x = students[:2]
 print(x)

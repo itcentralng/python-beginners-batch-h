@@ -31,20 +31,16 @@ print(students)
 student = {}
 # Q7. Using the right method, remove the first student from the list above and add it
 # as a value in the above dictionary
-students.remove('mukhtar')
-print(students)
-x = student ={'name':'mukhtar'}
-print(x)
+student['name'] = students.pop(0)
+print(student)
 # Q8. Remove the last two items from the above list and create a tuple with the values
 kill = students.pop(), students.pop()
-
 print(kill)
 # Add age, gender, hieght of the student into the student dictionary above using
 # the most appropraite data types.
-x.update({'age': 34 ,  })
-x.update({'gender': 'm'})
-x.update({'height':"6'3ft" })
-print(x)
+student['age'] = 18
+student['gender'] = 'male'
+student['height'] = 1.80
 # Q10. Store a value for the student in the dictionary that indicates whether the student
 # is admitted or not using a boolean.
 student_info ={'name' : 'mukhtar', 'surname' : 'aliyy' , 'age' : 35}

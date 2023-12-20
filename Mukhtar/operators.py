@@ -4,7 +4,8 @@ fruits = ['mangoes' , 'apples' , 'grapes' , 'pawpaws' , 'oranges']
 print('apples' in fruits)
 # Q3. Remove the last item from the list and check if it contains the alphabet 'a'
 k = fruits[4]   
-print( k,'a'in k )
+print( k )
+print('a'in k )
 
 # Q4. Create a variable to hold the value 5
 x= 90
