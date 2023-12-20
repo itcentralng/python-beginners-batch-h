@@ -36,11 +36,9 @@ print(students)
 x = student ={'name':'mukhtar'}
 print(x)
 # Q8. Remove the last two items from the above list and create a tuple with the values
-students.remove('muhammad')
-students.remove('god of war')
-print(students)
-people = 'muhammad' , 'god of war'
-print(people)
+kill = students.pop(), students.pop()
+
+print(kill)
 # Add age, gender, hieght of the student into the student dictionary above using
 # the most appropraite data types.
 x.update({'age': 34 ,  })
