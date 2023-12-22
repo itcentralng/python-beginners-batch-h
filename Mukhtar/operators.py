@@ -6,9 +6,9 @@ print('apples' in fruits)
 print(fruits[-1])
 print('a' in fruits[-1])
 # or
-# k = fruits[-1]   
-# print( k )
-# print('a'in k )
+# another_variable = fruits[-1]   
+# print( another_variable )
+# print('a'in another_variable )
 # Q4. Create a variable to hold the value 5
 x= 90
 # Q6. Add 5 to the above variable
